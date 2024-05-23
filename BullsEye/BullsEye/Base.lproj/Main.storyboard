@@ -90,6 +90,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="roundLabel" destination="sGm-4N-vTN" id="1R7-PH-itt"/>
+                        <outlet property="scoreLabel" destination="aHF-Qh-mdf" id="dIc-jg-vfP"/>
                         <outlet property="slider" destination="m2S-Im-nlL" id="Qhn-wJ-OB6"/>
                         <outlet property="targetLabel" destination="DC9-S2-xCX" id="I7B-rN-etU"/>
                     </connections>
