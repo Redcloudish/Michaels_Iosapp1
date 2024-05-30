@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="TUx-hB-Hta">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="867"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1M-Ag-jkn">
                                 <rect key="frame" x="45" y="416" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -68,10 +72,6 @@
                                     <segue destination="0Pz-aM-1TH" kind="presentation" modalTransitionStyle="crossDissolve" id="wUN-9t-d9C"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="TUx-hB-Hta">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="867"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray3Color"/>
@@ -109,14 +109,14 @@
                                 <rect key="frame" x="42" y="37" width="308" height="407"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">A fortune app is a simple, entertaining application designed to deliver random fortunes, predictions, or pieces of wisdom to users. Typically inspired by traditional fortune cookies, these apps generate short, thought-provoking, or humorous messages when prompted. Users can tap a button  to receive a new fortune. Often, these apps also include features like daily notifications, the ability to share fortunes on social media, or themed categories of fortunes (e.g., love, career, or inspirational quotes). The main goal is to provide a fun and light-hearted way for users to gain a bit of daily insight or amusement.
+                                <string key="text">A fortune app is a simple, entertaining application designed to deliver random fortunes, predictions, or pieces of wisdom to users. Typically inspired by traditional fortune cookies, these apps generate short, thought-provoking, or humorous messages when prompted. Users can tap a button  to receive a new fortune. Often, these apps also include features like daily notifications, the ability to share fortunes on social media, or themed categories of fortunes (e.g., love, career, or inspirational quotes). The main goal is to provide a fun and light-hearted way for users to gain a bit of daily insight or amusement.
 
 
 
 
 
 
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
